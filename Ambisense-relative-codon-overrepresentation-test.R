@@ -1,6 +1,6 @@
 #This script performs hypergeometric tests of relative codon overrepresentation in
-#ambisense coding sequence pairs from annotated Genbank accessions. Requires text file
-#with list of Genbank accession numbers and FASTA file with coding sequence pairs as input.
+#ambisense coding sequence pairs from annotated Genbank accessions using the 'phyper' function in the R stats package. 
+#Requires text file with list of Genbank accession numbers and FASTA file with coding sequence pairs as input.
 #One of the sequences in each analyzed pair must contain the word 'complement' in the FASTA header.
 
 #Required packages
