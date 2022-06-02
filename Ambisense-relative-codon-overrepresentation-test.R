@@ -66,7 +66,7 @@ for (i in 1:length(RefSeq_Accessions)){
   
   genome_nna<-sum(vir_sense_nna, anti_sense_nna) # m for nna phyper test
   
-  #genome nna counts
+  #genome nnc counts
   
   vir_sense_nnc<-rowSums(as.data.frame(vir_sense_codon_table2)[substr(names(as.data.frame(vir_sense_codon_table2)),3,3)=="C"])
   anti_sense_nnc<-rowSums(as.data.frame(anti_sense_codon_table2)[substr(names(as.data.frame(anti_sense_codon_table2)),3,3)=="C"]) 
